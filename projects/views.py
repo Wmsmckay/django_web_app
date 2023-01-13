@@ -13,3 +13,6 @@ def project_detail(request, pk):
     project = Project.objects.get(pk=pk)
     context = {"project": project, "MEDIA_URL": settings.MEDIA_URL}
     return render(request, "project_detail.html", context)
+
+def about_me(request):
+    return render(request, "about_me.html")
