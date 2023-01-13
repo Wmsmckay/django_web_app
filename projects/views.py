@@ -9,7 +9,6 @@ def project_index(request):
     context = {"projects": projects, "MEDIA_URL": settings.MEDIA_URL}
     return render(request, "project_index.html", context)
 
-
 def project_detail(request, pk):
     project = Project.objects.get(pk=pk)
     context = {"project": project, "MEDIA_URL": settings.MEDIA_URL}

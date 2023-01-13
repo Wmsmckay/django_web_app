@@ -5,12 +5,11 @@
 <div class="row">
 {% for project in projects %}
     <div class="col-md-4">
-        <div class="card mb-2">
-            {% comment %} <img class="card-img-top" src="{% static project.image %}"> {% endcomment %}
+        <div class="card mb-2" >
             <img src="{{MEDIA_URL}}{{project.image}}" alt="{{project.title}}">
             <div class="card-body">
                 <h5 class="card-title">{{ project.title }}</h5>
-                <p class="card-text">{{ project.description }}</p>
+                <p class="card-text" style="white-space:nowrap;text-overflow: ellipsis; overflow:hidden">{{ project.description }}</p>
                 <a href="{% url 'project_detail' project.pk %}"
                    class="btn btn-primary">
                     Read More
