@@ -8,6 +8,8 @@ My Django portfolio project is a web application that allows me to showcase my w
 
 The site contains a home page that has card for each project in the database. The page is created dynamically. Each card has a details page based on a template that shows an image, some info about the project, the technology used and a link to the source code on github.
 
+There is also an about me page that is created statically. It just displays some information about me and has a link to my github.
+
 # Development Environment
 
 * VS Code
@@ -25,5 +27,4 @@ The site contains a home page that has card for each project in the database. Th
 
 {Make a list of things that you need to fix, improve, and add in the future.}
 * Add more projects to the site
-* 
-* Item 3
+* Deploy the live site
