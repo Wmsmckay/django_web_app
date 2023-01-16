@@ -28,3 +28,4 @@ There is also an about me page that is created statically. It just displays some
 {Make a list of things that you need to fix, improve, and add in the future.}
 * Add more projects to the site
 * Deploy the live site
+* Create image of the site to help with hosting in a cluster
