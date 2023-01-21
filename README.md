@@ -16,6 +16,7 @@ There is also an about me page that is created statically. It just displays some
 * Git/Github
 * Django 4.1.5
 * Python 3.8 64-bit
+* Bootstrap 
 
 # Useful Websites
 
