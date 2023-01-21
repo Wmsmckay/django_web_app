@@ -2,7 +2,7 @@
 
 My Django portfolio project is a web application that allows me to showcase my work. It used the Django framework, which is a popular and powerful web framework for building web applications. It uses dynamically build pages through the use of templates and a sql lite database. The project also allows me to create and edit portfolio items through the admin page. The project uses bootstrap to style the pages and make them responsive.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/VJynFwPa7TQ)
 
 # Web Pages
 
@@ -19,14 +19,10 @@ There is also an about me page that is created statically. It just displays some
 * Bootstrap 
 
 # Useful Websites
-
-{Make a list of websites that you found helpful in this project}
 * [Real Python Django Portfolio App](https://realpython.com/get-started-with-django-1/)
 * [Django Project Docs](https://docs.djangoproject.com/en/4.1/)
 
 # Future Work
-
-{Make a list of things that you need to fix, improve, and add in the future.}
 * Add more projects to the site
 * Deploy the live site
 * Create image of the site to help with hosting in a cluster
